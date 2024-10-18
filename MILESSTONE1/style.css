@@ -1,0 +1,102 @@
+/*general styling*/
+body{
+    padding: 150px;
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    background-color:rgba(46, 38, 30, 0.432)
+}
+
+.resume_container{
+  display: flex;
+  background-color: #ece2e2;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0% auto;
+  box-shadow:0 0 20px rgb(56, 13, 35);
+      
+}
+.left-section{
+    background-color:#2e1f1f;
+    color :white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid hwb(0 26% 60%);
+
+}
+
+.profile-pic{
+ height: 150px;
+ width: 150px;
+ margin-top: 10%;
+ border-radius: 50%;
+ border: 5px solid rgb(241, 228, 231) ;
+margin-bottom: 20px;
+}
+h1{
+    font-size: 24px;
+    margin:10 px;
+   margin-bottom: 30px;
+   text-align: center; 
+   border-radius: 10px;
+   box-shadow: 0 0 15px pink;
+
+}
+h2{
+    font-size: 18px;
+    padding: 2%;
+    margin: 10px 0;
+    color: #2e1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px pink;
+}
+h3{
+    font-size: 16px;
+    padding: 1%;
+    margin: 5px 0;
+    color: #2e1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px pink;
+}
+h4{
+    font-size: 14px;
+    padding: 2%;
+    margin: 10px 0;
+    color: #2e1f1f;
+    border-radius: 5px;
+    box-shadow: 0 0 10px pink;
+}
+
+p{
+    font-size: 14px;
+    color :rgb(34, 12, 12);
+    font-family: Arial, sans-serif;
+    margin: auto;
+    text-decoration: solid;
+    hyphens: auto;
+    text-align: left; 
+    
+}
+.right-section{
+    background:#ece2e2;
+    color :rgb(34, 12, 12);
+    padding: 20px;
+    width: 60%;
+    text-align: left;
+    border-right: 5px solid hwb(0 16% 83%);
+}
+button{
+    font-family: arial, sans-serif;
+    color: #492b2b;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px pink;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+button:hover{
+    background-color: #2e1f1f;
+    color: #ece2e2;
+}
+
